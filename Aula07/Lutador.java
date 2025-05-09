@@ -17,7 +17,7 @@ public class Lutador {
         this.nascionalidade = na;
         this.idade = id;
         this.altura = al;
-        setPeso(pe);
+        this.setPeso(pe);
         this.vitorias = vi;
         this.derrotas = de;
         this.empates = em;
