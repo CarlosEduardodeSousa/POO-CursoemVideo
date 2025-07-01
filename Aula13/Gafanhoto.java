@@ -40,5 +40,18 @@ public class Gafanhoto extends Pessoa{
 
     }
 
+    @Override
+    public void Detalhes(){
+        System.out.println("====================");
+        System.out.println("       Pessoa       ");
+        System.out.println("====================");
+        System.out.println("Nome: " + getNome());
+        System.out.println("idade: " + getIdade());
+        System.out.println("Sexo: " + getSexo());
+        System.out.println("Experiencia: " + getExperiencia());
+        System.out.println("Login: " + getLogin());
+        System.out.println("Vídeos Assistidos: " + getTotassistido());
+    }
+
 
 }
