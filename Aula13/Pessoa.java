@@ -49,7 +49,7 @@ public abstract class Pessoa {
 
     //Método da classe Pessoa
 
-    public abstract void ganharExp();
+    protected abstract void ganharExp();
 
     public void Detalhes(){
         System.out.println("====================");
